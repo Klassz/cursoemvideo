@@ -1,4 +1,4 @@
-package atividade.contabancariasimples;
+package atividade.praticas.contabancariasimples;
 
 public class AppContaBancaria {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package atividade.contabancariasimples;
+package atividade.praticas.contabancariasimples;
 
 public class Contabancaria {
     private String nomeUsuarioConta;

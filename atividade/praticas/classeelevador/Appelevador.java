@@ -10,27 +10,25 @@ public class Appelevador{
 		System.out.printf("Situação.............: %s\n", elevador.getStatus());
 
 		System.out.println("1ª operação:");
-		elevador.registraEntrada(8);  // 6
+		elevador.registraEntrada(6);  
 		System.out.println("Pessoas transportadas: " + elevador.getPessoasTransportadas());
 		System.out.printf("Situação.............: %s\n", elevador.getStatus());
 		
 		System.out.println("2ª operação:");
         elevador.registraEntrada(2);
-        elevador.registraSaida(2);
-		elevador.registraSaida(2);    // 4
-		elevador.registraEntrada(0);  // 8
+        elevador.registraSaida(4);  
 		System.out.println("Pessoas transportadas: " + elevador.getPessoasTransportadas());
 		System.out.printf("Situação.............: %s\n", elevador.getStatus());
 			
 		
 		System.out.println("3ª operação:");
-		elevador.registraSaida(2);    // 6		
-		elevador.registraEntrada(6);  // 12
+		elevador.registraSaida(2);    	
+		elevador.registraEntrada(6);  
 		System.out.println("Pessoas transportadas: " + elevador.getPessoasTransportadas());
 		System.out.printf("Situação.............: %s\n", elevador.getStatus());
 		
 		System.out.println("4ª operação (saída):");
-		elevador.registraSaida(3);    // 9		
+		elevador.registraSaida(3);   
 		System.out.println("Pessoas transportadas: " + elevador.getPessoasTransportadas());
 		System.out.printf("Situação.............: %s\n", elevador.getStatus());
 		
